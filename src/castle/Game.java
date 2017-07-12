@@ -50,7 +50,8 @@ public class Game {
 
     private void goRoom(String direction) 
     {
-        Room nextRoom = null;
+        Room nextRoom = currentRoom.getExit(direction);
+        
         if (nextRoom == null) {
             System.out.println("那里没有门！");
         }
