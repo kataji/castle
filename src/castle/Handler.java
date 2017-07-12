@@ -6,4 +6,5 @@ public class Handler {
 	public boolean isBye(){
 		return false;
 	}
+	public void helpInfo(){}
 }
